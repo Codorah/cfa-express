@@ -1,0 +1,5 @@
+{
+  "name": "CFA Express - Convertisseur Ultra Rapide",
+  "description": "Un convertisseur de devises mobile-first spécialisé pour le Franc CFA (XOF/XAF), fonctionnant hors ligne avec un historique des transactions et des conseils financiers intelligents.",
+  "requestFramePermissions": []
+}
