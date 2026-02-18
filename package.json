@@ -11,12 +11,15 @@
     "start": "node --env-file=.env.local server.mjs",
     "typecheck": "tsc --noEmit",
     "cap:add:android": "npx cap add android",
-    "cap:sync:android": "node scripts/cap-sync-android.mjs"
+    "cap:sync:android": "node scripts/cap-sync-android.mjs",
+    "cap:add:ios": "npx cap add ios",
+    "cap:sync:ios": "node scripts/cap-sync-ios.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.1.0",
     "@capacitor/cli": "^8.1.0",
     "@capacitor/core": "^8.1.0",
+    "@capacitor/ios": "^8.1.0",
     "@google/genai": "^1.41.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
