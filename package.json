@@ -9,7 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "node --env-file=.env.local server.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "cap:add:android": "npx cap add android",
+    "cap:sync:android": "node scripts/cap-sync-android.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.1.0",
